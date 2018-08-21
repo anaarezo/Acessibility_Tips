@@ -21,7 +21,9 @@ Espanhol: lang="es"
 ### 1.2.1. H1
 A utilização do heading tag H1 necesita ser limitado a 1 por página, a existência de mais de um dessa mesma tag traz conflitos para a leitura, direcionamento e entendimento da página, não só para acessibilidade como também para SEO, pois a utilização desta tag consiste em fazer com que o usuário seja direcionado à primeira vista com a página na qual ele se encontra.
 
+```html
 <h1>Título Exemplo de H1</h1>
+```
 ### 1.2.2. H1 ao H6
 Para que a leitura tenha um seguimento ideal, é necessário que os heading tags estejam ordenados corretamente, isso porque os softwares de leitura de tela trabalham buscando por onde é necessário iniciar a leitura para fazer mais sentido ao contexto do conteúdo como um todo. Logo, em ferramentas de monitoria de código para verificação de acessibilidade, é crucial que os heading tags estejam ordenados corretamente em um bloco. Exemplo:
 
