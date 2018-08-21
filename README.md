@@ -40,9 +40,18 @@ Para que a leitura tenha um seguimento ideal, é necessário que os heading tags
 ```
 ## 1.3. Skip Link
 ## 1.4. Outline
+Outline é uma propriedade de contorno do CSS, na qual é crucial para a leitura de todas as informações e elementos da página. Esta propriedade exibe bordas por todos os elementos do site enquanto é pressionada a tecla `tab` para navegação, porque quando navegada por via da tecla, faz com que os softwares de leitura reconheçam, campos, botões, palavras, dentre outros elementos com foco.
+Caso seja removida essa leitura é perdida, fazendo com que o texto do site ou campos sejam confusos ou não reconhecidos por meio de softwares de leitura.
+Uma regra muito importante se quer desenvolver um site acessível é nunca remover o `outline`.
+
 ## 1.5. Imagens
+Nunca remover alt e title das imagens
 ## 1.6. Roles
 ## 1.7. Tabindex
+(ignorado pelo screen header pelo tabindex -1)
 ## 1.8. Aria-Label
 ## 1.9. Ícones
+```html
+<div class="star" tabindex="-1">😄</div>
+```
 ## 1.10. Formulários
