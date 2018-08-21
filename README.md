@@ -13,9 +13,9 @@ Sempre declarar o idioma do documento HTML, na tag principal da página <html> �
 ```
 Outras línguas:
 
-Português do Brasil: lang="pt-br"
-Francês: lang="fr"
-Espanhol: lang="es"
+* Português do Brasil: `lang="pt-br"`
+* Francês: `lang="fr"`
+* Espanhol: `lang="es"`
 
 ## 1.2. Heading Tags
 ### 1.2.1. H1
