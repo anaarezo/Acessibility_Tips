@@ -83,7 +83,7 @@ O atributo `tabindex` consiste no foco dos elementos durante a navegação do te
 ```html
 <h1 tabindex="0">Título da Página</h1>
 <h2 tabindex="1">Legenda da informação do texto</h2>
-<p tabindex="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lobortis est. Sed bibendum, neque in imperdiet aliquam, purus leo viverra sem, a sodales diam urna sed ex. Praesent ac sapien non ipsum egestas vulputate. </p>
+<p tabindex="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 ```
 
 Existe também a opção de focar o elemento, porém ao mesmo tempo ele será ignorado na leitura, no caso de elementos que não possuem uma importância tão grande para a leitura de um usuário. Como, por exemplo:
