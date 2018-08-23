@@ -78,11 +78,27 @@ A primeira regra para acessibilidade de imagens é nunca remover os atributos `a
 ```
 
 ## 1.7. Tabindex
-(ignorado pelo screen header pelo tabindex -1)
+O atributo `tabindex` consiste no foco dos elementos durante a navegação do teclado, com isso é possível criar uma ordem numérica de qual elemento deve ser acessado primeiro no momento da navegação.
+
+```html
+<h1 tabindex="0">Título da Página</h1>
+<h2 tabindex="1">Legenda da informação do texto</h2>
+<p tabindex="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lobortis est. Sed bibendum, neque in imperdiet aliquam, purus leo viverra sem, a sodales diam urna sed ex. Praesent ac sapien non ipsum egestas vulputate. </p>
+```
+
+Existe também a opção de focar o elemento, porém ao mesmo tempo ele será ignorado na leitura, no caso de elementos que não possuem uma importância tão grande para a leitura de um usuário. Como, por exemplo:
+
+```html
+<div class="item">
+    <span class="apple" tabindex="-1">🍎</span>
+    <label>Alimentação</label>
+</div>
+```
 ## 1.8. Aria-Label
+é interessante ler também sobre wai aria
 ## 1.9. Ícones
 ```html
-<div class="star" tabindex="-1">😄</div>
+<div class="emoji" tabindex="-1">😄</div>
 ```
 ## 1.10. Formulários
 
