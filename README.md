@@ -52,6 +52,7 @@ a {
     display: none;
 }
 ```
+Desta forma, o Skip Link é ignorado pelo usuário que consegue ver o site, apenas é lido pelos usuários de leitores de tela, que conseguem acessar essa opção por meio do `html`
 
 ## 1.4. Outline
 Outline é uma propriedade de contorno do CSS, na qual é crucial para a leitura de todas as informações e elementos da página. Esta propriedade exibe bordas por todos os elementos do site enquanto é pressionada a tecla `tab` para navegação, porque quando navegada por via da tecla, faz com que os softwares de leitura reconheçam, campos, botões, palavras, dentre outros elementos com foco.
@@ -59,8 +60,24 @@ Caso seja removida essa leitura é perdida, fazendo com que o texto do site ou c
 Uma regra muito importante se quer desenvolver um site acessível é nunca remover o `outline`.
 
 ## 1.5. Imagens
-Nunca remover alt e title das imagens
+A primeira regra para acessibilidade de imagens é nunca remover os atributos `alt` e `title` das imagens, isto, porque com estes atributos é possível inserir textos explicativos para os usuários de leitores de tela, fazendo com que fique claro o que se encontre na imagem, é muito importante ser descritivo e ao mesmo tempo sucinto, para que a pessoa consiga mentalizar o que aparece na imagem.
+
 ## 1.6. Roles
+```html
+<header role="banner"></header>
+
+<nav role="navigation"></nav>
+
+<main id="conteudoPrincipal" role="main"></main>
+
+<form action="search.php" role="search"></form>
+
+<p class="copyright" role="info"></p>
+
+<div class="left-btn" aria-label="Anterior" role="button">🢂</div>
+```
+
+
 ## 1.7. Tabindex
 (ignorado pelo screen header pelo tabindex -1)
 ## 1.8. Aria-Label
