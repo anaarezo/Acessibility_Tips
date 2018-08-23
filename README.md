@@ -69,3 +69,8 @@ Nunca remover alt e title das imagens
 <div class="star" tabindex="-1">😄</div>
 ```
 ## 1.10. Formulários
+
+
+## Referências
+* [W3C - Geral](https://www.w3.org/TR/WCAG20/)
+* [W3C - Referência Rápida](https://www.w3.org/WAI/WCAG20/quickref/)
