@@ -77,7 +77,6 @@ A primeira regra para acessibilidade de imagens é nunca remover os atributos `a
 <div class="left-btn" aria-label="Anterior" role="button">🢂</div>
 ```
 
-
 ## 1.7. Tabindex
 (ignorado pelo screen header pelo tabindex -1)
 ## 1.8. Aria-Label
@@ -87,7 +86,10 @@ A primeira regra para acessibilidade de imagens é nunca remover os atributos `a
 ```
 ## 1.10. Formulários
 
-
 ## Referências
 * [W3C - Geral](https://www.w3.org/TR/WCAG20/)
 * [W3C - Referência Rápida](https://www.w3.org/WAI/WCAG20/quickref/)
+* [Nomensa](https://www.nomensa.com/blog/2004/what-are-skip-links)
+* [UX - Acessibilidade](https://ux.sapo.pt/acessibilidade/)
+* [Accessible Bootstrap Date Picker](http://eureka2.github.io/ab-datepicker/)
+* [Felipe Fialho](https://www.felipefialho.com/blog/2016/sobre-wai-aria-acessibilidade-e-semantica)
